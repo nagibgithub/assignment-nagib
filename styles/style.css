@@ -213,7 +213,10 @@
 }
 
 /* sec-2 img */
-
+.image-btn{
+    display: flex;
+    flex-direction: column;
+}
 .img-sec2{
     width: 600px;
     height: auto;
@@ -243,7 +246,7 @@
 }
 
 /* -----------------------
----body Section 3 style---
+---body Section 3 some facts style---
 ----------------------- */
 
 .sec-3{
@@ -261,7 +264,7 @@
 }
 
 /* -----------------------
----body Section 4 style---
+---body Section 4 achivement style---
 ----------------------- */
 
 .sec-4{
@@ -349,4 +352,329 @@ footer{
     font-weight: 400;
     font-size: 20px;
     color: #424242;
+}
+
+/* ---------------
+----Responsive----
+--------------- */
+
+/* Responsive 375 */
+
+@media only screen and (max-width: 800px) {
+    .g3-nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 500;
+        padding: 10px 0px 10px 0px;
+    }
+    .g3-nav ul{
+        display: flex;
+        flex-direction: column;
+        padding-left: 0px;
+        text-align: center;
+        font-style: normal;
+        font-size: 18px;
+        color: #424242;
+    }
+    .g3-article{
+        padding: 0px 0px 0px 0px;
+        text-align: center;
+    }
+    .g3-article h1{
+        font-size: 50px;
+        font-weight: 700;
+        margin: 0px;
+        color: #131313;
+    }
+    .banner{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 100%;
+    }
+    .sec-1{
+        display: flex;
+        flex-direction: column;
+        margin: 0px 0px 0px 0px;
+    }
+    .team-img{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sec-2{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        margin-right: 0px;
+        margin-left: 10px;
+    }
+    .sec-2txt{
+        padding-top: 10px;
+        padding-left: 5px;
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+    }
+    .div-class{
+        width: 300px;
+        margin: 10px 10px 10px 10px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 10px 10px 10px 10px rgb(226, 226, 226);
+    }
+    .image-btn{
+        display: flex;
+        flex-direction: column;
+    }
+    .image-btn{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-sec2{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+    }
+    .btn-3{
+        justify-content: center;
+        align-items: center;
+        background: #FF900E;
+        top: 0px;
+        left: 0px;
+        border-radius: 4px;
+        border-width: 0px;
+        width: 50%;
+        height: auto;
+        color: white;
+        font-weight: 500;
+        font-size: 32px;
+    }
+    .btn-3span{
+        font-weight: 400;
+        font-size: 16px;
+    }
+    .sec-3{
+        margin: 0px 0px 0px 0px;
+    }
+    .sec-3headtxt{
+        color: #131313;
+        font-weight: 700;
+        font-size: 45px;
+    }
+    .sec-3txtp{
+        color: #727272;
+        font-weight: 400;
+        font-size: 16px;
+    }
+    .sec-4{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sec-4div{
+        border: 2px solid #FF900E;
+        border-radius: 4px;
+        margin: 5px;
+        padding: 20px;
+        text-align: center;
+        width: 242px;
+        transition: width 1s, height 1s, transform 1s;
+    }
+    .spon-logo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        column-gap: 50px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .logo{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    footer{
+        background: #FFF4E7;
+        border-radius: 4px;
+        text-align: center;
+        padding: 0px 0px 0px 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .footer-txt{
+        font-weight: 200;
+        font-size: 16px;
+        color: #424242;
+    }
+}
+
+/* Responsive 375 */
+
+@media only screen and (min-width: 881px) and (max-width: 1024px) {
+    .g3-nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 500;
+        padding: 10px 0px 10px 0px;
+    }
+    .g3-nav ul{
+        display: flex;
+        flex-direction: row;
+        padding-left: 0px;
+        text-align: center;
+        font-style: normal;
+        font-size: 18px;
+        color: #424242;
+    }
+    .g3-article{
+        padding: 0px 0px 0px 0px;
+        text-align: center;
+    }
+    .g3-article h1{
+        font-size: 50px;
+        font-weight: 700;
+        margin: 0px;
+        color: #131313;
+    }
+    .banner{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 100%;
+    }
+    .sec-1{
+        display: flex;
+        flex-direction: column;
+        margin: 0px 0px 0px 0px;
+        justify-content: center;
+        align-items: center;
+    }
+    .team-img{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        justify-content: center;
+    }
+    .sec-2{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        margin-right: 0px;
+        margin-left: 10px;
+    }
+    .sec-2txt{
+        padding-top: 10px;
+        padding-left: 5px;
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+    }
+    .div-class{
+        width: 300px;
+        margin: 10px 10px 10px 10px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 10px 10px 10px 10px rgb(226, 226, 226);
+    }
+    .image-btn{
+        display: flex;
+        flex-direction: column;
+    }
+    .image-btn{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-sec2{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+    }
+    .btn-3{
+        justify-content: center;
+        align-items: center;
+        background: #FF900E;
+        top: 0px;
+        left: 0px;
+        border-radius: 4px;
+        border-width: 0px;
+        width: 50%;
+        height: auto;
+        color: white;
+        font-weight: 500;
+        font-size: 32px;
+    }
+    .btn-3span{
+        font-weight: 400;
+        font-size: 16px;
+    }
+    .sec-3{
+        margin: 0px 0px 0px 0px;
+    }
+    .sec-3headtxt{
+        color: #131313;
+        font-weight: 700;
+        font-size: 45px;
+    }
+    .sec-3txtp{
+        color: #727272;
+        font-weight: 400;
+        font-size: 16px;
+    }
+    .sec-4{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sec-4div{
+        border: 2px solid #FF900E;
+        border-radius: 4px;
+        margin: 5px;
+        padding: 20px;
+        text-align: center;
+        width: 242px;
+        transition: width 1s, height 1s, transform 1s;
+    }
+    .spon-logo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        column-gap: 50px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .logo{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    footer{
+        background: #FFF4E7;
+        border-radius: 4px;
+        text-align: center;
+        padding: 0px 0px 0px 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .footer-txt{
+        font-weight: 200;
+        font-size: 16px;
+        color: #424242;
+    }
 }
