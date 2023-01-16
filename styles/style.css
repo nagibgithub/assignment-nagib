@@ -191,8 +191,8 @@
     padding-left: 20px;
     display: flex;
     flex-direction: column;
-    width: 500px;
-    height: 109px;
+    width: auto;
+    height: auto;
 }
 .div-class{
     margin: 10px 10px 10px 10px;
@@ -358,9 +358,9 @@ footer{
 ----Responsive----
 --------------- */
 
-/* Responsive 375 */
+/* Responsive 800 */
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 880px) {
     .g3-nav{
         display: flex;
         flex-direction: column;
@@ -517,9 +517,9 @@ footer{
     }
 }
 
-/* Responsive 375 */
+/* Responsive 881 - 1024 */
 
-@media only screen and (min-width: 881px) and (max-width: 1024px) {
+@media only screen and (min-width: 881px) and (max-width: 1180px) {
     .g3-nav{
         display: flex;
         flex-direction: column;
@@ -559,8 +559,14 @@ footer{
         display: flex;
         flex-direction: column;
         margin: 0px 0px 0px 0px;
-        justify-content: center;
+        justify-items: center;
         align-items: center;
+    }
+    .sec-article{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 20px;
     }
     .team-img{
         display: grid;
@@ -578,20 +584,19 @@ footer{
     .sec-2txt{
         padding-top: 10px;
         padding-left: 5px;
-        display: flex;
-        flex-direction: column;
-        width: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 5px;
+        width: 100%;
         height: auto;
+        padding-bottom: 50px;
+        justify-items: center;
     }
     .div-class{
         width: 300px;
         margin: 10px 10px 10px 10px;
         background-color: rgb(255, 255, 255);
         box-shadow: 10px 10px 10px 10px rgb(226, 226, 226);
-    }
-    .image-btn{
-        display: flex;
-        flex-direction: column;
     }
     .image-btn{
         display: flex;
@@ -609,22 +614,24 @@ footer{
         justify-content: center;
         align-items: center;
         background: #FF900E;
-        top: 0px;
+        margin-bottom: 50px;
+        top: 50px;
         left: 0px;
         border-radius: 4px;
         border-width: 0px;
-        width: 50%;
-        height: auto;
+        width: 250px;
+        height: 150px;
         color: white;
-        font-weight: 500;
+        font-weight: 700;
         font-size: 32px;
     }
     .btn-3span{
-        font-weight: 400;
+        font-weight: 700;
         font-size: 16px;
     }
     .sec-3{
-        margin: 0px 0px 0px 0px;
+        margin: 0px 10px;
+        text-align: center;
     }
     .sec-3headtxt{
         color: #131313;
@@ -637,12 +644,14 @@ footer{
         font-size: 16px;
     }
     .sec-4{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
         align-items: center;
     }
     .sec-4div{
+        justify-content: center;
+        align-items: center;
         border: 2px solid #FF900E;
         border-radius: 4px;
         margin: 5px;
@@ -652,17 +661,22 @@ footer{
         transition: width 1s, height 1s, transform 1s;
     }
     .spon-logo{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
         align-items: center;
         column-gap: 50px;
         padding-top: 10px;
         padding-bottom: 10px;
+        row-gap: 30px;
     }
     .logo{
         padding-top: 20px;
         padding-bottom: 20px;
+    }
+    #figma{
+        position: absolute;
+        align-items: center;
     }
     footer{
         background: #FFF4E7;
